@@ -3,7 +3,7 @@ sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
 sudo cp sources.list /etc/apt/
 
 #update apt-get
-sudo apt-get update & sudo apt-get upgrade -y
+sudo apt-get update && sudo apt-get upgrade -y
 
 #https://github.com/huacnlee/init.d.git
 cd ~/
