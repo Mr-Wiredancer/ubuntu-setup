@@ -1,0 +1,15 @@
+#change ubuntu sources to chinese(163, guangdong) server
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
+sudo cp sources.list /etc/apt/
+
+#update apt-get
+sudo apt-get update && sudo apt-get upgrade -y
+
+# go into the folder to run ./install_rvm
+./install_packages
+./install_rvm
+./install_ruby_rails
+./install_nodejs
+
+#./install_nginx
+#./install_postgres

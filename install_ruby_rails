@@ -1,0 +1,14 @@
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+gem source -r https://rubygems.org/
+gem source -r http://rubygems.org/
+gem source -a http://ruby.taobao.org
+
+rvm install 1.9.3
+rvm gemset create rails3.2
+rvm --default use 1.9.3@rails3.2
+gem sources 
+gem install rails -v='3.2.14' --no-rdoc --no-ri # dont install doc to save time...
+echo "finished installing ruby and rails"
+echo "------------------------------------"

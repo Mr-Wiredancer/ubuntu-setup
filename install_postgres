@@ -1,0 +1,5 @@
+#credited to allenfantasy@github
+
+sudo add-apt-repository ppa:pitti/postgresql
+sudo apt-get update
+sudo apt-get -y install postgresql-9.2 libpq-dev

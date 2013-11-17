@@ -1,0 +1,16 @@
+#credited to huacnlee@github
+
+echo "Install RVM"
+echo ""
+\curl -L https://get.rvm.io | bash -s stable
+#echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"' >>~/.bashrc
+#source ~/.bashrc
+echo ""
+echo -n "Replace Ruby Download url to Taobao Mirror..."
+sed -i -e 's/ftp\.ruby-lang\.org\/pub\/ruby/ruby\.taobao\.org\/mirrors\/ruby/g' ~/.rvm/config/db
+echo "[Done]"
+echo ""
+echo ""
+echo "---------------------------------------------------------------------------"
+echo "---------------------------------------------------------------------------"
+
