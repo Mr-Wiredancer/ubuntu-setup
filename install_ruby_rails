@@ -1,9 +1,9 @@
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
-gem source -r https://rubygems.org/
-gem source -r http://rubygems.org/
-gem source -a http://ruby.taobao.org
+gem sources -r https://rubygems.org/
+gem sources -r http://rubygems.org/
+gem sources -a http://ruby.taobao.org/
 
 rvm install 1.9.3
 rvm gemset create rails3.2
