@@ -11,3 +11,5 @@ cd ubuntu-setup
 ```
 
 Then go grab a beer.
+
+credits to huacnlee and allenfantasy
