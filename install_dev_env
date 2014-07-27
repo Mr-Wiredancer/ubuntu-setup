@@ -7,9 +7,9 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 # go into the folder to run ./install_rvm
 ./install_packages
-./install_rvm
-./install_ruby_rails
-./install_nodejs
+#./install_rvm
+#./install_ruby_rails
+#./install_nodejs
 
 #./install_nginx
 #./install_postgres
