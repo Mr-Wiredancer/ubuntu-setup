@@ -1,3 +1,4 @@
-sudo add-apt-repository -y ppa:chris-lea/node.js
-sudo apt-get update -y
-sudo apt-get install nodejs -y
+curl https://raw.githubusercontent.com/creationix/nvm/v0.12.1/install.sh | bash
+source ~/.profile
+nvm install 0.10 # 默认安装0.10版本
+nvm alias default 0.10
